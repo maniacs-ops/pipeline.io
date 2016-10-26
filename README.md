@@ -1,6 +1,6 @@
 ![Datasticks Logo](https://s3-us-west-2.amazonaws.com/advancedspark.com/img/datasticks-logo.png)
 
-### The Lightweight, 100% Open Source Alternative for Streaming Analytics, ML, and AI
+### 100% Open Source, Continuously Train and Deploy Streaming ML and AI Pipelines
 
 ## Live Demo
 * Click [here](http://demo.datasticks.com) for a live demo.  
