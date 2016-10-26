@@ -3,11 +3,14 @@
 ### The Lightweight, 100% Open Source Alternative for Streaming Analytics, ML, and AI
 
 ## Live Demo
-* Click [here](http://datasticks.com) for a live demo.  
+* Click [here](http://demo.datasticks.com) for a live demo.  
 
 **Note:  Do not load any sensitive data into this environment!**
 
-## Related Projects
+## Docker Images
+* Click [here](https://hub.docker.com/u/fluxcapacitor) for all Docker images
+
+## Related Training and Workshops
 * Click [here](https://github.com/fluxcapacitor/pipeline) for a related project used for workshops
 
 ## Setup Kubernetes Cluster
