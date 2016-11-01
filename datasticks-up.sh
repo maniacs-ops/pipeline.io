@@ -55,7 +55,7 @@ kubectl create -f stream.ml/kafka-0.10-rc.yaml
 kubectl create -f stream.ml/kafka-0.10-svc.yaml
 
 echo '...Dashboard...'
-kubectl create -f dashboard.ml/kubernetes/weavescope.yaml
+kubectl create -f dashboard.ml/weavescope/weavescope.yaml
 # See https://github.com/fluxcapacitor/dashboard.ml for more info on creating secret.yaml from a template
 #kubectl create -f dashboard.ml/kubernetes-ec2-autoscaler/secret.yaml
 #kubectl create -f dashboard.ml/kubernetes-ec2-autoscaler/scaling-controller.yaml
