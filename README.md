@@ -55,7 +55,7 @@ http://<apache-host-ip>
 kubectl describe svc weavescope-app
 ```
 ```
-https://<KUBERNETES-ADMIN-UI-WEAVESCOPE-HOST-IP>
+https://<weavescope-host-ip>
 ```
 * Note: You can manually scale Spark Workers through WeaveScope
 
@@ -86,12 +86,12 @@ kubectl rolling-update jupyterhub-master -f jupyterhub-rc-2cores-2gb.yaml
 
 ### Continuous Deploy, Monitor, and Rollback New Spark ML and TensorFlow AI Models 
 ```
-TODO:  Link to jupyter notebook
+TODO:  Link to specific jupyter notebook
 ```
 
 ### Continuous, Incremental Training of Spark ML and TensorFlow AI Models from Kafka
 ```
-TODO:  Link to jupyter noteook
+TODO:  Link to specific jupyter noteook
 ```
 
 ### Highly-scalable, Highly-available Model Serving using Battle-tested NetflixOSS Components
