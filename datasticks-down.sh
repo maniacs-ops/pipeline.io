@@ -17,7 +17,7 @@ echo '...Spark Worker...'
 kubectl delete rc spark-worker-2-0-1
 
 echo '...Hive Metastore...'
-kubectl delete rc metastore
+kubectl delete rc metastore-1-2-1
 
 echo '...Zeppelin...'
 kubectl delete rc zeppelin-master
