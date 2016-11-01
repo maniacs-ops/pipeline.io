@@ -43,6 +43,8 @@ kubectl delete rc kafka-0-10
 echo '...Dashboard...'
 kubectl delete rc weavescope-app
 kubectl delete ds weavescope-probe
+#kubectl delete rc appscaler --namespace=kube-system
+#kubectl delete secret autoscaler --namespace=kube-system
 
 echo '...NetflixOSS-based Prediction Services...'
 kubectl delete rc prediction
