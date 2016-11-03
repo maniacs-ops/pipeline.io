@@ -31,8 +31,8 @@ kubectl delete rc airflow
 echo '...Presto Master...'
 kubectl delete rc presto-master
 
-echo '...Presto Worker...'
-kubectl delete rc presto-worker
+#echo '...Presto Worker...'
+#kubectl delete rc presto-worker
 
 echo '...Presto AirPal...'
 kubectl delete rc airpal
@@ -49,8 +49,8 @@ kubectl delete ds weavescope-probe
 echo '...NetflixOSS-based Prediction Services...'
 kubectl delete rc prediction
 
-echo '...TensorFlow Serving-based Prediction Services...'
-kubectl delete rc tensorflow
+#echo '...TensorFlow Serving-based Prediction Services...'
+#kubectl delete rc tensorflow
 
 echo '...Cassandra...'
 kubectl delete rc cassandra

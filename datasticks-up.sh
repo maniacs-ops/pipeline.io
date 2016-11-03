@@ -42,9 +42,9 @@ echo '...Presto Master...'
 kubectl create -f presto.ml/presto-master-rc.yaml
 kubectl create -f presto.ml/presto-master-svc.yaml
 
-echo '...Presto Worker...'
-kubectl create -f presto.ml/presto-worker-rc.yaml
-kubectl create -f presto.ml/presto-worker-svc.yaml
+#echo '...Presto Worker...'
+#kubectl create -f presto.ml/presto-worker-rc.yaml
+#kubectl create -f presto.ml/presto-worker-svc.yaml
 
 echo '...Presto AirPal...'
 kubectl create -f presto.ml/airpal-rc.yaml
@@ -64,9 +64,9 @@ echo '...NetflixOSS-based Prediction Services...'
 kubectl create -f serve.ml/prediction-rc.yaml
 kubectl create -f serve.ml/prediction-svc.yaml
 
-echo '...TensorFlow Serving-based Prediction Services...'
-kubectl create -f serve.ml/tensorflow-rc.yaml
-kubectl create -f serve.ml/tensorflow-svc.yaml
+#echo '...TensorFlow Serving-based Prediction Services...'
+#kubectl create -f serve.ml/tensorflow-rc.yaml
+#kubectl create -f serve.ml/tensorflow-svc.yaml
 
 echo '...Cassandra...'
 kubectl create -f cassandra.ml/cassandra-rc.yaml
