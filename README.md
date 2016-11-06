@@ -11,7 +11,7 @@
 * Click [here](https://hub.docker.com/u/fluxcapacitor) for all Docker images
 
 ## Related Training and Workshops
-* Click [here](https://github.com/fluxcapacitor/pipeline) for a related project used for workshops
+* Click [here](https://github.com/fluxcapacitor/pipeline) for related training repo
 
 ## Setup Kubernetes Cluster
 * Follow the instructions [here](https://github.com/fluxcapacitor/kubernetes.ml#setup-a-new-kubernetes-cluster).
@@ -33,7 +33,7 @@ git submodule update --recursive --remote && git pull --recurse-submodules
 
 ## Deploy Datasticks to Kubernetes Cluster
 ```
-./datasticks-up.sh
+./bin/datasticks-up.sh
 ```
 
 ## Get all Service Host/IPs
