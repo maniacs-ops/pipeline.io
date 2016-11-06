@@ -31,8 +31,8 @@ kubectl delete rc airflow
 echo '...Presto Master...'
 kubectl delete rc presto-master
 
-#echo '...Presto Worker...'
-#kubectl delete rc presto-worker
+echo '...Presto Worker...'
+kubectl delete rc presto-worker
 
 echo '...Presto AirPal...'
 kubectl delete rc airpal

@@ -42,9 +42,9 @@ echo '...Presto Master...'
 kubectl create -f presto.ml/presto-master-rc.yaml
 kubectl create -f presto.ml/presto-master-svc.yaml
 
-#echo '...Presto Worker...'
-#kubectl create -f presto.ml/presto-worker-rc.yaml
-#kubectl create -f presto.ml/presto-worker-svc.yaml
+echo '...Presto Worker...'
+kubectl create -f presto.ml/presto-worker-rc.yaml
+kubectl create -f presto.ml/presto-worker-svc.yaml
 
 echo '...Presto AirPal...'
 kubectl create -f presto.ml/airpal-rc.yaml
