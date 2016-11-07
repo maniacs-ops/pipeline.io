@@ -1,0 +1,87 @@
+FROM fluxcapacitor/package-java-1.8
+
+WORKDIR /root
+
+ENV \
+ TENSORFLOW_VERSION=0.10.0 \
+ TENSORFLOW_SERVING_VERSION=0.4.1 \
+ SPRING_CORE_VERSION=4.3.0.RELEASE \
+ SPRING_BOOT_VERSION=1.3.5.RELEASE \
+ SPRING_CLOUD_VERSION=1.1.2.RELEASE \
+ SPRING_CLOUD_DEPENDENCIES=Brixton.RC1 
+ 
+# TensorFlow Serving Home (not required on PATH)
+ENV TENSORFLOW_SERVING_HOME=/root/serving
+
+# TensorFlow Home (not required on PATH)
+ENV TENSORFLOW_HOME=/root/tensorflow
+
+RUN \
+  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list \
+  && curl https://bazel.io/bazel-release.pub.gpg | sudo apt-key add - \
+  && apt-get update \
+  && apt-get install -y bazel
+
+# Required by TensorFlow Serving
+RUN \
+ apt-get update \
+ && apt-get install -y \
+      build-essential \
+      libfreetype6-dev \
+      libpng12-dev \
+      libzmq3-dev \
+      pkg-config \
+      python-dev \
+      python-numpy \
+      python-pip \
+      software-properties-common \
+      swig \
+      zip \
+      zlib1g-dev \
+      libcurl3-dev
+
+RUN pip install enum34 futures mock six && \
+    pip install --pre 'protobuf>=3.0.0a3' && \
+    pip install -i https://testpypi.python.org/simple --pre grpcio
+
+# TensorFlow Serving
+RUN \
+ cd ~ \
+ && git clone -b $TENSORFLOW_SERVING_VERSION --single-branch --recurse-submodules https://github.com/tensorflow/serving.git
+
+# TensorFlow Source
+RUN \
+ cd ~ \
+ && git clone -b v$TENSORFLOW_VERSION --single-branch --recurse-submodules https://github.com/tensorflow/tensorflow.git
+
+COPY setup-tensorflow-serving.sh setup-tensorflow-serving.sh
+RUN \
+  cd ~ \
+  && ./setup-tensorflow-serving.sh
+
+#COPY sidecar/ sidecar/
+#RUN \
+# cd /root/sidecar \
+# && mvn -DskipTests clean install
+
+RUN \
+  mkdir -p /root/logs
+
+ENV LOGS_HOME=/root/logs
+
+COPY run run
+COPY datasets/ datasets/
+
+RUN \
+  cd /root/datasets/serving/inception_model \
+  && tar -xzvf 00157585.tgz \
+  && rm 00157585.tgz
+
+RUN \
+  mkdir -p /root/tensorboard 
+
+COPY tensorflow-inception-serving-service-proxy.py tensorflow-inception-serving-service-proxy.py
+
+EXPOSE 6006 5070 5678 9090 9091
+
+CMD ["supervise", "."]

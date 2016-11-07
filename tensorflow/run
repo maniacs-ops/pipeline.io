@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd ~
+$TENSORFLOW_SERVING_HOME/bazel-bin/tensorflow_serving/example/inception_inference --port=9091 /root/datasets/serving/inception_model
+# > $LOGS_HOME/serving-inception.out &
+#echo '...tail -f $LOGS_HOME/serving-inception.out...'
+
+#sleep(1)
+
+#cd ~
+#python tensorflow-inception-serving-service-proxy.py > $LOGS_HOME/inception-serving-service-proxy-python.log &
+#echo '...tail -f $LOGS_HOME/inception-serving-service-proxy-python.log...'
+
+#cd ~/sidecar
+#java -Dspring.profiles.active=$SPRING_PROFILES_ACTIVE -Djava.security.egd=file:/dev/./urandom -jar target/tensorflow-serving-service-0.0.1-SNAPSHOT.jar > $LOGS_HOME/tensorflow-serving-service-netflix.log &
+#echo '...tail -f $LOGS_HOME/tensorflow-serving-service-netflix.log...'
+
+#tensorboard --logdir /root/tensorboard
+
+#tail -f $LOGS_HOME/tensorflow-serving-service-netflix.log
+
+#tail -f $LOGS_HOME/inception-serving-service-proxy-python.log
+#tail -f $LOGS_HOME/serving-inception.out

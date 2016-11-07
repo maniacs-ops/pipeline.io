@@ -1,0 +1,444 @@
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.08 MBSending build context to Docker daemon 30.64 MBSending build context to Docker daemon  31.2 MBSending build context to Docker daemon 31.75 MBSending build context to Docker daemon 32.31 MBSending build context to Docker daemon 32.87 MBSending build context to Docker daemon 33.42 MBSending build context to Docker daemon 33.98 MBSending build context to Docker daemon 34.54 MBSending build context to Docker daemon 35.09 MBSending build context to Docker daemon 35.65 MBSending build context to Docker daemon 36.21 MBSending build context to Docker daemon 36.77 MBSending build context to Docker daemon 37.32 MBSending build context to Docker daemon 37.88 MBSending build context to Docker daemon 38.44 MBSending build context to Docker daemon 38.99 MBSending build context to Docker daemon 39.55 MBSending build context to Docker daemon 40.11 MBSending build context to Docker daemon 40.67 MBSending build context to Docker daemon 41.22 MBSending build context to Docker daemon 41.78 MBSending build context to Docker daemon 42.34 MBSending build context to Docker daemon 42.89 MBSending build context to Docker daemon 43.45 MBSending build context to Docker daemon 44.01 MBSending build context to Docker daemon 44.56 MBSending build context to Docker daemon 45.12 MBSending build context to Docker daemon 45.68 MBSending build context to Docker daemon 46.24 MBSending build context to Docker daemon 46.79 MBSending build context to Docker daemon 47.35 MBSending build context to Docker daemon 47.91 MBSending build context to Docker daemon 48.46 MBSending build context to Docker daemon 49.02 MBSending build context to Docker daemon 49.58 MBSending build context to Docker daemon 50.14 MBSending build context to Docker daemon 50.69 MBSending build context to Docker daemon 51.25 MBSending build context to Docker daemon 51.81 MBSending build context to Docker daemon 52.36 MBSending build context to Docker daemon 52.92 MBSending build context to Docker daemon 53.48 MBSending build context to Docker daemon 54.03 MBSending build context to Docker daemon 54.59 MBSending build context to Docker daemon 55.15 MBSending build context to Docker daemon 55.71 MBSending build context to Docker daemon 56.26 MBSending build context to Docker daemon 56.82 MBSending build context to Docker daemon 57.38 MBSending build context to Docker daemon 57.93 MBSending build context to Docker daemon 58.49 MBSending build context to Docker daemon 59.05 MBSending build context to Docker daemon  59.6 MBSending build context to Docker daemon 60.16 MBSending build context to Docker daemon 60.72 MBSending build context to Docker daemon 61.28 MBSending build context to Docker daemon 61.83 MBSending build context to Docker daemon 62.39 MBSending build context to Docker daemon 62.95 MBSending build context to Docker daemon  63.5 MBSending build context to Docker daemon 64.06 MBSending build context to Docker daemon 64.62 MBSending build context to Docker daemon 65.18 MBSending build context to Docker daemon 65.73 MBSending build context to Docker daemon 66.29 MBSending build context to Docker daemon 66.85 MBSending build context to Docker daemon  67.4 MBSending build context to Docker daemon 67.96 MBSending build context to Docker daemon 68.52 MBSending build context to Docker daemon 69.07 MBSending build context to Docker daemon 69.63 MBSending build context to Docker daemon 70.19 MBSending build context to Docker daemon 70.75 MBSending build context to Docker daemon  71.3 MBSending build context to Docker daemon 71.86 MBSending build context to Docker daemon 72.42 MBSending build context to Docker daemon 72.97 MBSending build context to Docker daemon 73.53 MBSending build context to Docker daemon 74.09 MBSending build context to Docker daemon 74.65 MBSending build context to Docker daemon  75.2 MBSending build context to Docker daemon 75.76 MBSending build context to Docker daemon 76.32 MBSending build context to Docker daemon 76.87 MBSending build context to Docker daemon 77.43 MBSending build context to Docker daemon 77.99 MBSending build context to Docker daemon 78.54 MBSending build context to Docker daemon  79.1 MBSending build context to Docker daemon 79.66 MBSending build context to Docker daemon 80.22 MBSending build context to Docker daemon 80.77 MBSending build context to Docker daemon 81.33 MBSending build context to Docker daemon 81.89 MBSending build context to Docker daemon 82.44 MBSending build context to Docker daemon    83 MBSending build context to Docker daemon 83.56 MBSending build context to Docker daemon 84.12 MBSending build context to Docker daemon 84.67 MBSending build context to Docker daemon 85.23 MBSending build context to Docker daemon 85.79 MBSending build context to Docker daemon 86.34 MBSending build context to Docker daemon  86.9 MBSending build context to Docker daemon 87.46 MBSending build context to Docker daemon 88.01 MBSending build context to Docker daemon 88.57 MBSending build context to Docker daemon 89.13 MBSending build context to Docker daemon 89.69 MBSending build context to Docker daemon 90.24 MBSending build context to Docker daemon  90.8 MBSending build context to Docker daemon 91.36 MBSending build context to Docker daemon 91.91 MBSending build context to Docker daemon 92.47 MBSending build context to Docker daemon 93.03 MBSending build context to Docker daemon 93.59 MBSending build context to Docker daemon 94.14 MBSending build context to Docker daemon  94.7 MBSending build context to Docker daemon 95.26 MBSending build context to Docker daemon 95.81 MBSending build context to Docker daemon 96.37 MBSending build context to Docker daemon 96.93 MBSending build context to Docker daemon 97.48 MBSending build context to Docker daemon 98.04 MBSending build context to Docker daemon  98.6 MBSending build context to Docker daemon 99.16 MBSending build context to Docker daemon 99.71 MBSending build context to Docker daemon 100.3 MBSending build context to Docker daemon 100.8 MBSending build context to Docker daemon 101.4 MBSending build context to Docker daemon 101.9 MBSending build context to Docker daemon 102.5 MBSending build context to Docker daemon 103.1 MBSending build context to Docker daemon 103.6 MBSending build context to Docker daemon 104.2 MBSending build context to Docker daemon 104.7 MBSending build context to Docker daemon 105.3 MBSending build context to Docker daemon 105.8 MBSending build context to Docker daemon 106.4 MBSending build context to Docker daemon   107 MBSending build context to Docker daemon 107.5 MBSending build context to Docker daemon 108.1 MBSending build context to Docker daemon 108.6 MBSending build context to Docker daemon 109.2 MBSending build context to Docker daemon 109.7 MBSending build context to Docker daemon 110.3 MBSending build context to Docker daemon 110.9 MBSending build context to Docker daemon 111.4 MBSending build context to Docker daemon   112 MBSending build context to Docker daemon 112.5 MBSending build context to Docker daemon 113.1 MBSending build context to Docker daemon 113.6 MBSending build context to Docker daemon 114.1 MB
+Step 1 : FROM fluxcapacitor/package-java-1.8
+ ---> 550d8d04c78b
+Step 2 : WORKDIR /root
+ ---> Using cache
+ ---> 12a465a0ce29
+Step 3 : ENV TENSORFLOW_VERSION 0.10.0 TENSORFLOW_SERVING_VERSION 0.4.1 SPRING_CORE_VERSION 4.3.0.RELEASE SPRING_BOOT_VERSION 1.3.5.RELEASE SPRING_CLOUD_VERSION 1.1.2.RELEASE SPRING_CLOUD_DEPENDENCIES Brixton.RC1
+ ---> Running in f8abc549c025
+ ---> 263103787c6c
+Removing intermediate container f8abc549c025
+Step 4 : ENV TENSORFLOW_SERVING_HOME /root/serving
+ ---> Running in 248f9089b7a5
+ ---> 3e96d3a0507d
+Removing intermediate container 248f9089b7a5
+Step 5 : ENV TENSORFLOW_HOME /root/tensorflow
+ ---> Running in 919a2dad27d2
+ ---> 113437ad631a
+Removing intermediate container 919a2dad27d2
+Step 6 : RUN echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list   && curl https://bazel.io/bazel-release.pub.gpg | sudo apt-key add -   && apt-get update   && apt-get install -y bazel
+ ---> Running in d72767cdf4b1
+deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8
+[91m  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[0m[91m100  3157  100  3157    0     0  22842      0 --:--:-- --:--:-- --:--:-- 23043
+[0mOK
+Get:1 http://storage.googleapis.com stable InRelease [3853 B]
+Ign http://archive.ubuntu.com trusty InRelease
+Hit http://ppa.launchpad.net trusty InRelease
+Get:2 http://archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Get:3 https://dl.bintray.com  InRelease
+Ign https://dl.bintray.com  InRelease
+Get:4 http://storage.googleapis.com stable/jdk1.8 amd64 Packages [604 B]
+Get:5 https://dl.bintray.com  Release.gpg
+Get:6 http://archive.ubuntu.com trusty-security InRelease [65.9 kB]
+Get:7 https://dl.bintray.com  Release
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:8 https://dl.bintray.com  Packages
+Hit http://archive.ubuntu.com trusty Release.gpg
+Get:9 http://archive.ubuntu.com trusty-updates/main Sources [476 kB]
+Get:10 http://archive.ubuntu.com trusty-updates/restricted Sources [5921 B]
+Get:11 http://archive.ubuntu.com trusty-updates/universe Sources [214 kB]
+Get:12 http://archive.ubuntu.com trusty-updates/main amd64 Packages [1139 kB]
+Get:13 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [20.4 kB]
+Get:14 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [502 kB]
+Get:15 http://archive.ubuntu.com trusty-security/main Sources [153 kB]
+Get:16 http://archive.ubuntu.com trusty-security/restricted Sources [4621 B]
+Get:17 http://archive.ubuntu.com trusty-security/universe Sources [53.2 kB]
+Get:18 http://archive.ubuntu.com trusty-security/main amd64 Packages [675 kB]
+Get:19 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [17.0 kB]
+Get:20 http://archive.ubuntu.com trusty-security/universe amd64 Packages [185 kB]
+Hit http://archive.ubuntu.com trusty Release
+Hit http://archive.ubuntu.com trusty/main Sources
+Hit http://archive.ubuntu.com trusty/restricted Sources
+Hit http://archive.ubuntu.com trusty/universe Sources
+Hit http://archive.ubuntu.com trusty/main amd64 Packages
+Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+Fetched 3584 kB in 5s (712 kB/s)
+Reading package lists...
+[91mW: Size of file /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_trusty-updates_restricted_binary-amd64_Packages.gz is not what the server reported 20387 23469
+W: Size of file /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_trusty-security_restricted_binary-amd64_Packages.gz is not what the server reported 17042 20228
+[0mReading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  bash-completion zlib1g-dev
+The following NEW packages will be installed:
+  bash-completion bazel zlib1g-dev
+0 upgraded, 3 newly installed, 0 to remove and 11 not upgraded.
+Need to get 100 MB of archives.
+After this operation, 1408 kB of additional disk space will be used.
+Get:1 http://storage.googleapis.com/bazel-apt/ stable/jdk1.8 bazel amd64 0.4.0 [99.8 MB]
+Get:2 http://archive.ubuntu.com/ubuntu/ trusty-updates/main bash-completion all 1:2.1-4ubuntu0.2 [153 kB]
+Get:3 http://archive.ubuntu.com/ubuntu/ trusty/main zlib1g-dev amd64 1:1.2.8.dfsg-1ubuntu1 [183 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 100 MB in 2s (34.1 MB/s)
+Selecting previously unselected package bash-completion.
+(Reading database ... 27145 files and directories currently installed.)
+Preparing to unpack .../bash-completion_1%3a2.1-4ubuntu0.2_all.deb ...
+Unpacking bash-completion (1:2.1-4ubuntu0.2) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-1ubuntu1_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
+Selecting previously unselected package bazel.
+Preparing to unpack .../archives/bazel_0.4.0_amd64.deb ...
+Unpacking bazel (0.4.0) ...
+Setting up bash-completion (1:2.1-4ubuntu0.2) ...
+Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-1ubuntu1) ...
+Setting up bazel (0.4.0) ...
+ ---> 66a6303b32a5
+Removing intermediate container d72767cdf4b1
+Step 7 : RUN apt-get update  && apt-get install -y       build-essential       libfreetype6-dev       libpng12-dev       libzmq3-dev       pkg-config       python-dev       python-numpy       python-pip       software-properties-common       swig       zip       zlib1g-dev       libcurl3-dev
+ ---> Running in ca89da975691
+Hit http://storage.googleapis.com stable InRelease
+Ign http://archive.ubuntu.com trusty InRelease
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://storage.googleapis.com stable/jdk1.8 amd64 Packages
+Hit http://archive.ubuntu.com trusty-updates InRelease
+Hit http://archive.ubuntu.com trusty-security InRelease
+Get:1 https://dl.bintray.com  InRelease
+Ign https://dl.bintray.com  InRelease
+Hit https://dl.bintray.com  Release.gpg
+Hit http://archive.ubuntu.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://archive.ubuntu.com trusty-updates/main Sources
+Hit http://archive.ubuntu.com trusty-updates/restricted Sources
+Hit https://dl.bintray.com  Release
+Hit http://archive.ubuntu.com trusty-updates/universe Sources
+Hit http://archive.ubuntu.com trusty-updates/main amd64 Packages
+Hit http://archive.ubuntu.com trusty-updates/restricted amd64 Packages
+Hit https://dl.bintray.com  Packages
+Hit http://archive.ubuntu.com trusty-updates/universe amd64 Packages
+Hit http://archive.ubuntu.com trusty Release
+Hit http://archive.ubuntu.com trusty-security/main Sources
+Hit http://archive.ubuntu.com trusty-security/restricted Sources
+Hit http://archive.ubuntu.com trusty-security/universe Sources
+Hit http://archive.ubuntu.com trusty-security/main amd64 Packages
+Hit http://archive.ubuntu.com trusty-security/restricted amd64 Packages
+Hit http://archive.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://archive.ubuntu.com trusty/main Sources
+Hit http://archive.ubuntu.com trusty/restricted Sources
+Hit http://archive.ubuntu.com trusty/universe Sources
+Hit http://archive.ubuntu.com trusty/main amd64 Packages
+Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version.
+build-essential set to manually installed.
+python-dev is already the newest version.
+zip is already the newest version.
+zlib1g-dev is already the newest version.
+zlib1g-dev set to manually installed.
+software-properties-common is already the newest version.
+python-pip is already the newest version.
+The following extra packages will be installed:
+  comerr-dev curl krb5-multidev libblas3 libcurl3 libgcrypt11-dev libgfortran3
+  libgnutls-dev libgnutlsxx27 libgpg-error-dev libgssrpc4 libidn11-dev
+  libkadm5clnt-mit9 libkadm5srv-mit9 libkdb5-7 libkrb5-dev liblapack3
+  libldap2-dev libp11-kit-dev libpgm-5.1-0 librtmp-dev libssl-dev libssl-doc
+  libtasn1-6-dev libzmq3 swig2.0
+Suggested packages:
+  doc-base krb5-doc libcurl4-doc libcurl3-dbg libgcrypt11-doc gnutls26-doc
+  gnutls-bin krb5-user gfortran python-nose python-numpy-dbg python-numpy-doc
+  swig-doc swig-examples swig2.0-examples swig2.0-doc
+The following NEW packages will be installed:
+  comerr-dev krb5-multidev libblas3 libcurl4-openssl-dev libfreetype6-dev
+  libgcrypt11-dev libgfortran3 libgnutls-dev libgnutlsxx27 libgpg-error-dev
+  libgssrpc4 libidn11-dev libkadm5clnt-mit9 libkadm5srv-mit9 libkdb5-7
+  libkrb5-dev liblapack3 libldap2-dev libp11-kit-dev libpgm-5.1-0 libpng12-dev
+  librtmp-dev libssl-dev libssl-doc libtasn1-6-dev libzmq3 libzmq3-dev
+  pkg-config python-numpy swig swig2.0
+The following packages will be upgraded:
+  curl libcurl3
+2 upgraded, 31 newly installed, 0 to remove and 9 not upgraded.
+Need to get 11.0 MB of archives.
+After this operation, 46.3 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ trusty-updates/main curl amd64 7.35.0-1ubuntu2.10 [123 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libcurl3 amd64 7.35.0-1ubuntu2.10 [173 kB]
+Get:3 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgfortran3 amd64 4.8.4-2ubuntu1~14.04.3 [248 kB]
+Get:4 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgssrpc4 amd64 1.12+dfsg-2ubuntu5.2 [53.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libkadm5clnt-mit9 amd64 1.12+dfsg-2ubuntu5.2 [36.2 kB]
+Get:6 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libkdb5-7 amd64 1.12+dfsg-2ubuntu5.2 [36.2 kB]
+Get:7 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libkadm5srv-mit9 amd64 1.12+dfsg-2ubuntu5.2 [50.4 kB]
+Get:8 http://archive.ubuntu.com/ubuntu/ trusty/universe libpgm-5.1-0 amd64 5.1.118-1~dfsg-0.1ubuntu3 [156 kB]
+Get:9 http://archive.ubuntu.com/ubuntu/ trusty/universe libzmq3 amd64 4.0.4+dfsg-2 [129 kB]
+Get:10 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgnutlsxx27 amd64 2.12.23-12ubuntu2.5 [17.3 kB]
+Get:11 http://archive.ubuntu.com/ubuntu/ trusty-updates/main comerr-dev amd64 2.1-1.42.9-3ubuntu1.3 [38.3 kB]
+Get:12 http://archive.ubuntu.com/ubuntu/ trusty-updates/main krb5-multidev amd64 1.12+dfsg-2ubuntu5.2 [111 kB]
+Get:13 http://archive.ubuntu.com/ubuntu/ trusty/main libblas3 amd64 1.2.20110419-7 [215 kB]
+Get:14 http://archive.ubuntu.com/ubuntu/ trusty/main pkg-config amd64 0.26-1ubuntu4 [40.9 kB]
+Get:15 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libidn11-dev amd64 1.28-1ubuntu2.1 [520 kB]
+Get:16 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libkrb5-dev amd64 1.12+dfsg-2ubuntu5.2 [14.4 kB]
+Get:17 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libldap2-dev amd64 2.4.31-1+nmu2ubuntu8.3 [259 kB]
+Get:18 http://archive.ubuntu.com/ubuntu/ trusty/main libgpg-error-dev amd64 1.12-0.2ubuntu1 [20.1 kB]
+Get:19 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgcrypt11-dev amd64 1.5.3-2ubuntu4.4 [274 kB]
+Get:20 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libtasn1-6-dev amd64 3.4-3ubuntu0.4 [385 kB]
+Get:21 http://archive.ubuntu.com/ubuntu/ trusty/main libp11-kit-dev amd64 0.20.2-2ubuntu2 [56.4 kB]
+Get:22 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgnutls-dev amd64 2.12.23-12ubuntu2.5 [372 kB]
+Get:23 http://archive.ubuntu.com/ubuntu/ trusty/main librtmp-dev amd64 2.4+20121230.gitdf6c518-1 [67.1 kB]
+Get:24 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libssl-dev amd64 1.0.1f-1ubuntu2.21 [1074 kB]
+Get:25 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libcurl4-openssl-dev amd64 7.35.0-1ubuntu2.10 [244 kB]
+Get:26 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libpng12-dev amd64 1.2.50-1ubuntu2.14.04.2 [206 kB]
+Get:27 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libfreetype6-dev amd64 2.5.2-1ubuntu2.5 [621 kB]
+Get:28 http://archive.ubuntu.com/ubuntu/ trusty/main liblapack3 amd64 3.5.0-2ubuntu1 [1730 kB]
+Get:29 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libssl-doc all 1.0.1f-1ubuntu2.21 [971 kB]
+Get:30 http://archive.ubuntu.com/ubuntu/ trusty/universe libzmq3-dev amd64 4.0.4+dfsg-2 [253 kB]
+Get:31 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-numpy amd64 1:1.8.2-0ubuntu0.1 [1603 kB]
+Get:32 http://archive.ubuntu.com/ubuntu/ trusty/main swig2.0 amd64 2.0.11-1ubuntu2 [875 kB]
+Get:33 http://archive.ubuntu.com/ubuntu/ trusty/main swig amd64 2.0.11-1ubuntu2 [6272 B]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 11.0 MB in 4s (2402 kB/s)
+(Reading database ... 27757 files and directories currently installed.)
+Preparing to unpack .../curl_7.35.0-1ubuntu2.10_amd64.deb ...
+Unpacking curl (7.35.0-1ubuntu2.10) over (7.35.0-1ubuntu2.9) ...
+Preparing to unpack .../libcurl3_7.35.0-1ubuntu2.10_amd64.deb ...
+Unpacking libcurl3:amd64 (7.35.0-1ubuntu2.10) over (7.35.0-1ubuntu2.9) ...
+Selecting previously unselected package libgfortran3:amd64.
+Preparing to unpack .../libgfortran3_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libgfortran3:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libgssrpc4:amd64.
+Preparing to unpack .../libgssrpc4_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking libgssrpc4:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libkadm5clnt-mit9:amd64.
+Preparing to unpack .../libkadm5clnt-mit9_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking libkadm5clnt-mit9:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libkdb5-7:amd64.
+Preparing to unpack .../libkdb5-7_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking libkdb5-7:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libkadm5srv-mit9:amd64.
+Preparing to unpack .../libkadm5srv-mit9_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking libkadm5srv-mit9:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libpgm-5.1-0:amd64.
+Preparing to unpack .../libpgm-5.1-0_5.1.118-1~dfsg-0.1ubuntu3_amd64.deb ...
+Unpacking libpgm-5.1-0:amd64 (5.1.118-1~dfsg-0.1ubuntu3) ...
+Selecting previously unselected package libzmq3:amd64.
+Preparing to unpack .../libzmq3_4.0.4+dfsg-2_amd64.deb ...
+Unpacking libzmq3:amd64 (4.0.4+dfsg-2) ...
+Selecting previously unselected package libgnutlsxx27:amd64.
+Preparing to unpack .../libgnutlsxx27_2.12.23-12ubuntu2.5_amd64.deb ...
+Unpacking libgnutlsxx27:amd64 (2.12.23-12ubuntu2.5) ...
+Selecting previously unselected package comerr-dev.
+Preparing to unpack .../comerr-dev_2.1-1.42.9-3ubuntu1.3_amd64.deb ...
+Unpacking comerr-dev (2.1-1.42.9-3ubuntu1.3) ...
+Selecting previously unselected package krb5-multidev.
+Preparing to unpack .../krb5-multidev_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking krb5-multidev (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libblas3.
+Preparing to unpack .../libblas3_1.2.20110419-7_amd64.deb ...
+Unpacking libblas3 (1.2.20110419-7) ...
+Selecting previously unselected package pkg-config.
+Preparing to unpack .../pkg-config_0.26-1ubuntu4_amd64.deb ...
+Unpacking pkg-config (0.26-1ubuntu4) ...
+Selecting previously unselected package libidn11-dev.
+Preparing to unpack .../libidn11-dev_1.28-1ubuntu2.1_amd64.deb ...
+Unpacking libidn11-dev (1.28-1ubuntu2.1) ...
+Selecting previously unselected package libkrb5-dev.
+Preparing to unpack .../libkrb5-dev_1.12+dfsg-2ubuntu5.2_amd64.deb ...
+Unpacking libkrb5-dev (1.12+dfsg-2ubuntu5.2) ...
+Selecting previously unselected package libldap2-dev:amd64.
+Preparing to unpack .../libldap2-dev_2.4.31-1+nmu2ubuntu8.3_amd64.deb ...
+Unpacking libldap2-dev:amd64 (2.4.31-1+nmu2ubuntu8.3) ...
+Selecting previously unselected package libgpg-error-dev.
+Preparing to unpack .../libgpg-error-dev_1.12-0.2ubuntu1_amd64.deb ...
+Unpacking libgpg-error-dev (1.12-0.2ubuntu1) ...
+Selecting previously unselected package libgcrypt11-dev.
+Preparing to unpack .../libgcrypt11-dev_1.5.3-2ubuntu4.4_amd64.deb ...
+Unpacking libgcrypt11-dev (1.5.3-2ubuntu4.4) ...
+Selecting previously unselected package libtasn1-6-dev.
+Preparing to unpack .../libtasn1-6-dev_3.4-3ubuntu0.4_amd64.deb ...
+Unpacking libtasn1-6-dev (3.4-3ubuntu0.4) ...
+Selecting previously unselected package libp11-kit-dev.
+Preparing to unpack .../libp11-kit-dev_0.20.2-2ubuntu2_amd64.deb ...
+Unpacking libp11-kit-dev (0.20.2-2ubuntu2) ...
+Selecting previously unselected package libgnutls-dev.
+Preparing to unpack .../libgnutls-dev_2.12.23-12ubuntu2.5_amd64.deb ...
+Unpacking libgnutls-dev (2.12.23-12ubuntu2.5) ...
+Selecting previously unselected package librtmp-dev.
+Preparing to unpack .../librtmp-dev_2.4+20121230.gitdf6c518-1_amd64.deb ...
+Unpacking librtmp-dev (2.4+20121230.gitdf6c518-1) ...
+Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../libssl-dev_1.0.1f-1ubuntu2.21_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.0.1f-1ubuntu2.21) ...
+Selecting previously unselected package libcurl4-openssl-dev:amd64.
+Preparing to unpack .../libcurl4-openssl-dev_7.35.0-1ubuntu2.10_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (7.35.0-1ubuntu2.10) ...
+Selecting previously unselected package libpng12-dev.
+Preparing to unpack .../libpng12-dev_1.2.50-1ubuntu2.14.04.2_amd64.deb ...
+Unpacking libpng12-dev (1.2.50-1ubuntu2.14.04.2) ...
+Selecting previously unselected package libfreetype6-dev.
+Preparing to unpack .../libfreetype6-dev_2.5.2-1ubuntu2.5_amd64.deb ...
+Unpacking libfreetype6-dev (2.5.2-1ubuntu2.5) ...
+Selecting previously unselected package liblapack3.
+Preparing to unpack .../liblapack3_3.5.0-2ubuntu1_amd64.deb ...
+Unpacking liblapack3 (3.5.0-2ubuntu1) ...
+Selecting previously unselected package libssl-doc.
+Preparing to unpack .../libssl-doc_1.0.1f-1ubuntu2.21_all.deb ...
+Unpacking libssl-doc (1.0.1f-1ubuntu2.21) ...
+Selecting previously unselected package libzmq3-dev:amd64.
+Preparing to unpack .../libzmq3-dev_4.0.4+dfsg-2_amd64.deb ...
+Unpacking libzmq3-dev:amd64 (4.0.4+dfsg-2) ...
+Selecting previously unselected package python-numpy.
+Preparing to unpack .../python-numpy_1%3a1.8.2-0ubuntu0.1_amd64.deb ...
+Unpacking python-numpy (1:1.8.2-0ubuntu0.1) ...
+Selecting previously unselected package swig2.0.
+Preparing to unpack .../swig2.0_2.0.11-1ubuntu2_amd64.deb ...
+Unpacking swig2.0 (2.0.11-1ubuntu2) ...
+Selecting previously unselected package swig.
+Preparing to unpack .../swig_2.0.11-1ubuntu2_amd64.deb ...
+Unpacking swig (2.0.11-1ubuntu2) ...
+Setting up libcurl3:amd64 (7.35.0-1ubuntu2.10) ...
+Setting up curl (7.35.0-1ubuntu2.10) ...
+Setting up libgfortran3:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libgssrpc4:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Setting up libkadm5clnt-mit9:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Setting up libkdb5-7:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Setting up libkadm5srv-mit9:amd64 (1.12+dfsg-2ubuntu5.2) ...
+Setting up libpgm-5.1-0:amd64 (5.1.118-1~dfsg-0.1ubuntu3) ...
+Setting up libzmq3:amd64 (4.0.4+dfsg-2) ...
+Setting up libgnutlsxx27:amd64 (2.12.23-12ubuntu2.5) ...
+Setting up comerr-dev (2.1-1.42.9-3ubuntu1.3) ...
+Setting up krb5-multidev (1.12+dfsg-2ubuntu5.2) ...
+Setting up libblas3 (1.2.20110419-7) ...
+update-alternatives: using /usr/lib/libblas/libblas.so.3 to provide /usr/lib/libblas.so.3 (libblas.so.3) in auto mode
+Setting up pkg-config (0.26-1ubuntu4) ...
+Setting up libidn11-dev (1.28-1ubuntu2.1) ...
+Setting up libkrb5-dev (1.12+dfsg-2ubuntu5.2) ...
+Setting up libldap2-dev:amd64 (2.4.31-1+nmu2ubuntu8.3) ...
+Setting up libgpg-error-dev (1.12-0.2ubuntu1) ...
+Setting up libgcrypt11-dev (1.5.3-2ubuntu4.4) ...
+Setting up libtasn1-6-dev (3.4-3ubuntu0.4) ...
+Setting up libp11-kit-dev (0.20.2-2ubuntu2) ...
+Setting up libgnutls-dev (2.12.23-12ubuntu2.5) ...
+Setting up librtmp-dev (2.4+20121230.gitdf6c518-1) ...
+Setting up libssl-dev:amd64 (1.0.1f-1ubuntu2.21) ...
+Setting up libcurl4-openssl-dev:amd64 (7.35.0-1ubuntu2.10) ...
+Setting up libpng12-dev (1.2.50-1ubuntu2.14.04.2) ...
+Setting up libfreetype6-dev (2.5.2-1ubuntu2.5) ...
+Setting up liblapack3 (3.5.0-2ubuntu1) ...
+update-alternatives: using /usr/lib/lapack/liblapack.so.3 to provide /usr/lib/liblapack.so.3 (liblapack.so.3) in auto mode
+Setting up libssl-doc (1.0.1f-1ubuntu2.21) ...
+Setting up libzmq3-dev:amd64 (4.0.4+dfsg-2) ...
+Setting up python-numpy (1:1.8.2-0ubuntu0.1) ...
+Setting up swig2.0 (2.0.11-1ubuntu2) ...
+Setting up swig (2.0.11-1ubuntu2) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.9) ...
+ ---> aa36a7ebf784
+Removing intermediate container ca89da975691
+Step 8 : RUN pip install enum34 futures mock six &&     pip install --pre 'protobuf>=3.0.0a3' &&     pip install -i https://testpypi.python.org/simple --pre grpcio
+ ---> Running in 24c2af75e562
+Downloading/unpacking enum34
+  Downloading enum34-1.1.6-py2-none-any.whl
+Downloading/unpacking futures
+  Downloading futures-3.0.5-py2-none-any.whl
+Downloading/unpacking mock
+Requirement already satisfied (use --upgrade to upgrade): six in /usr/lib/python2.7/dist-packages
+Downloading/unpacking funcsigs>=1 (from mock)
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl
+Downloading/unpacking pbr>=0.11 (from mock)
+Installing collected packages: enum34, futures, mock, funcsigs, pbr
+Successfully installed enum34 futures mock funcsigs pbr
+Cleaning up...
+Downloading/unpacking protobuf>=3.0.0a3
+Downloading/unpacking six>=1.9 (from protobuf>=3.0.0a3)
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /usr/lib/python2.7/dist-packages (from protobuf>=3.0.0a3)
+Installing collected packages: protobuf, six
+  Found existing installation: six 1.5.2
+    Not uninstalling six at /usr/lib/python2.7/dist-packages, owned by OS
+Successfully installed protobuf six
+Cleaning up...
+Downloading/unpacking grpcio
+  Running setup.py (path:/tmp/pip_build_root/grpcio/setup.py) egg_info for package grpcio
+    
+    Installed /tmp/pip_build_root/grpcio/sphinx_rtd_theme-0.1.10_alpha-py2.7.egg
+    Searching for sphinx>=1.3
+    Reading https://pypi.python.org/simple/sphinx/
+    Best match: Sphinx 1.5b1
+    Downloading https://pypi.python.org/packages/3f/0a/87f3496d13a19a1740a3b80514ac008576004e47cbfc10f02534a5b71d92/Sphinx-1.5b1.tar.gz#md5=a93688548bef4d9c263d59e16f60f6be
+    Processing Sphinx-1.5b1.tar.gz
+    Writing /tmp/easy_install-cZwWkm/Sphinx-1.5b1/setup.cfg
+    Running Sphinx-1.5b1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-cZwWkm/Sphinx-1.5b1/egg-dist-tmp-wGCZ9h
+    
+    Installed /tmp/pip_build_root/grpcio/Sphinx-1.5b1-py2.7.egg
+    Searching for imagesize
+    Reading https://pypi.python.org/simple/imagesize/
+    Best match: imagesize 0.7.1
+    Downloading https://pypi.python.org/packages/53/72/6c6f1e787d9cab2cc733cf042f125abec07209a58308831c9f292504e826/imagesize-0.7.1.tar.gz#md5=976148283286a6ba5f69b0f81aef8052
+    Processing imagesize-0.7.1.tar.gz
+    Writing /tmp/easy_install-VwX2sT/imagesize-0.7.1/setup.cfg
+    Running imagesize-0.7.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-VwX2sT/imagesize-0.7.1/egg-dist-tmp-hYDXZB
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /tmp/pip_build_root/grpcio/imagesize-0.7.1-py2.7.egg
+    Searching for alabaster>=0.7,<0.8
+    Reading https://pypi.python.org/simple/alabaster/
+    Best match: alabaster 0.7.9
+    Downloading https://pypi.python.org/packages/71/c3/70da7d8ac18a4f4c502887bd2549e05745fa403e2cd9d06a8a9910a762bc/alabaster-0.7.9.tar.gz#md5=b29646a8bbe7aa52830375b7d17b5d7a
+    Processing alabaster-0.7.9.tar.gz
+    Writing /tmp/easy_install-GIGdRP/alabaster-0.7.9/setup.cfg
+    Running alabaster-0.7.9/setup.py -q bdist_egg --dist-dir /tmp/easy_install-GIGdRP/alabaster-0.7.9/egg-dist-tmp-Ub76kn
+    zip_safe flag not set; analyzing archive contents...
+    alabaster.__init__: module references __file__
+    
+    Installed /tmp/pip_build_root/grpcio/alabaster-0.7.9-py2.7.egg
+    Searching for babel>=1.3,!=2.0
+    Reading https://pypi.python.org/simple/babel/
+    Best match: Babel 2.3.4
+    Downloading https://pypi.python.org/packages/6e/96/ba2a2462ed25ca0e651fb7b66e7080f5315f91425a07ea5b34d7c870c114/Babel-2.3.4.tar.gz#md5=afa20bc55b0e991833030129ad498f35
+    Processing Babel-2.3.4.tar.gz
+    Writing /tmp/easy_install-HrITWD/Babel-2.3.4/setup.cfg
+    Running Babel-2.3.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-HrITWD/Babel-2.3.4/egg-dist-tmp-es0F1s
+    
+    Installed /tmp/pip_build_root/grpcio/Babel-2.3.4-py2.7.egg
+    Searching for snowballstemmer>=1.1
+    Reading https://pypi.python.org/simple/snowballstemmer/
+    Best match: snowballstemmer 1.2.1
+    Downloading https://pypi.python.org/packages/20/6b/d2a7cb176d4d664d94a6debf52cd8dbae1f7203c8e42426daa077051d59c/snowballstemmer-1.2.1.tar.gz#md5=643b019667a708a922172e33a99bf2fa
+    Processing snowballstemmer-1.2.1.tar.gz
+    Writing /tmp/easy_install-bBfA2A/snowballstemmer-1.2.1/setup.cfg
+    Running snowballstemmer-1.2.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-bBfA2A/snowballstemmer-1.2.1/egg-dist-tmp-3TT2lX
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /tmp/pip_build_root/grpcio/snowballstemmer-1.2.1-py2.7.egg
+    Searching for docutils>=0.11
+    Reading https://pypi.python.org/simple/docutils/
+    Best match: docutils 0.12
+    Downloading https://pypi.python.org/packages/37/38/ceda70135b9144d84884ae2fc5886c6baac4edea39550f28bcd144c1234d/docutils-0.12.tar.gz#md5=4622263b62c5c771c03502afa3157768
+    Processing docutils-0.12.tar.gz
+    Writing /tmp/easy_install-BgNZSQ/docutils-0.12/setup.cfg
+    Running docutils-0.12/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BgNZSQ/docutils-0.12/egg-dist-tmp-FnRdFO
+    zip_safe flag not set; analyzing archive contents...
+    docutils.parsers.rst.directives.misc: module references __file__
+    docutils.writers.docutils_xml: module references __path__
+    docutils.writers.html4css1.__init__: module references __file__
+    docutils.writers.pep_html.__init__: module references __file__
+    docutils.writers.latex2e.__init__: module references __file__
+    docutils.writers.odf_odt.__init__: module references __file__
+    docutils.writers.s5_html.__init__: module references __file__
+    
+    Installed /tmp/pip_build_root/grpcio/docutils-0.12-py2.7.egg
+    Searching for Pygments>=2.0
+    Reading https://pypi.python.org/simple/Pygments/
+    Best match: Pygments 2.1.3
+    Downloading https://pypi.python.org/packages/b8/67/ab177979be1c81bc99c8d0592ef22d547e70bb4c6815c383286ed5dec504/Pygments-2.1.3.tar.gz#md5=ed3fba2467c8afcda4d317e4ef2c6150
+    Processing Pygments-2.1.3.tar.gz
+    Writing /tmp/easy_install-RQ3AK6/Pygments-2.1.3/setup.cfg
+    Running Pygments-2.1.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-RQ3AK6/Pygments-2.1.3/egg-dist-tmp-q8vIZE
+    
+    Installed /tmp/pip_build_root/grpcio/Pygments-2.1.3-py2.7.egg
