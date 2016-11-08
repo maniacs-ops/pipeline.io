@@ -1,9 +1,9 @@
-FROM fluxcapacitor/package-java-1.8
+FROM fluxcapacitor/package-anaconda-4.1.11
 
 WORKDIR /root
 
 ENV \
- TENSORFLOW_VERSION=0.10.0 \
+ TENSORFLOW_VERSION=0.11.0rc2 \
  TENSORFLOW_SERVING_VERSION=0.4.1 \
  SPRING_CORE_VERSION=4.3.0.RELEASE \
  SPRING_BOOT_VERSION=1.3.5.RELEASE \
@@ -14,7 +14,19 @@ ENV \
 ENV TENSORFLOW_SERVING_HOME=/root/serving
 
 # TensorFlow Home (not required on PATH)
-ENV TENSORFLOW_HOME=/root/tensorflow
+#ENV TENSORFLOW_HOME=/root/tensorflow
+
+# Java (required by bazel)
+RUN \
+ apt-get update \
+ && apt-get install -y software-properties-common \
+ && add-apt-repository ppa:webupd8team/java \
+ && apt-get update \
+ && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections \
+ && apt-get install -y oracle-java8-installer \
+ && apt-get install -y oracle-java8-set-default
+
+ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
 
 RUN \
   echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list \
@@ -49,15 +61,24 @@ RUN \
  cd ~ \
  && git clone -b $TENSORFLOW_SERVING_VERSION --single-branch --recurse-submodules https://github.com/tensorflow/serving.git
 
-# TensorFlow Source
 RUN \
- cd ~ \
- && git clone -b v$TENSORFLOW_VERSION --single-branch --recurse-submodules https://github.com/tensorflow/tensorflow.git
+  cd ~/serving/tensorflow \
+  && ./configure
 
-COPY setup-tensorflow-serving.sh setup-tensorflow-serving.sh
 RUN \
-  cd ~ \
-  && ./setup-tensorflow-serving.sh
+  cd ~/serving \
+  && bazel build -c opt tensorflow_serving/...
+
+#
+# TensorFlow Source
+#RUN \
+# cd ~ \
+# && git clone -b v$TENSORFLOW_VERSION --single-branch --recurse-submodules https://github.com/tensorflow/tensorflow.git
+
+#COPY setup-tensorflow-serving.sh setup-tensorflow-serving.sh
+#RUN \
+#  cd ~ \
+#  && ./setup-tensorflow-serving.sh
 
 #COPY sidecar/ sidecar/
 #RUN \
