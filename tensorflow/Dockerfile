@@ -112,8 +112,8 @@ RUN \
 RUN \
   mkdir -p /root/logs
 
-ENV 
-  \LOGS_HOME=/root/logs
+ENV \
+  LOGS_HOME=/root/logs
 
 COPY run run
 COPY datasets/ datasets/
