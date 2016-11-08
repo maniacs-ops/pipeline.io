@@ -26,13 +26,11 @@ ENV TENSORFLOW_SERVING_HOME=/root/serving
 # && apt-get install -y oracle-java8-installer \
 # && apt-get install -y oracle-java8-set-default
 
-#ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
-
-RUN \
-  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list \
-  && curl https://bazel.io/bazel-release.pub.gpg | sudo apt-key add - \
-  && apt-get update \
-  && apt-get install -y bazel
+#RUN \
+#  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list \
+#  && curl https://bazel.io/bazel-release.pub.gpg | sudo apt-key add - \
+#  && apt-get update \
+#  && apt-get install -y bazel
 
 # Required by TensorFlow Serving
 RUN \
@@ -82,6 +80,9 @@ RUN \
 RUN \
   cd ~/serving/tensorflow \
   && ./configure
+
+ENV \
+  JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
 
 RUN \
   cd ~/serving \
