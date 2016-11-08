@@ -1,9 +1,9 @@
-FROM fluxcapacitor/package-java-1.8
+FROM fluxcapacitor/package-ubuntu-14.04
 
 WORKDIR /root
 
 ENV \
- TENSORFLOW_VERSION=0.11.0rc2 \
+ TENSORFLOW_VERSION=0.10.0 \
  TENSORFLOW_SERVING_VERSION=0.4.1 \
  SPRING_CORE_VERSION=4.3.0.RELEASE \
  SPRING_BOOT_VERSION=1.3.5.RELEASE \
@@ -11,7 +11,8 @@ ENV \
  SPRING_CLOUD_DEPENDENCIES=Brixton.RC1 
  
 # TensorFlow Serving Home (not required on PATH)
-ENV TENSORFLOW_SERVING_HOME=/root/serving
+ENV \
+  TENSORFLOW_SERVING_HOME=/root/serving
 
 # TensorFlow Home (not required on PATH)
 #ENV TENSORFLOW_HOME=/root/tensorflow
@@ -61,7 +62,14 @@ ENV \
   BAZELRC=/root/.bazelrc
 
 ENV \ 
-  BAZEL_VERSION=0.3.1
+  BAZEL_VERSION=0.3.2
+#  JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
+
+RUN add-apt-repository -y ppa:openjdk-r/ppa && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends openjdk-8-jdk openjdk-8-jre-headless && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 RUN \ 
   mkdir /root/bazel \
@@ -80,9 +88,6 @@ RUN \
 RUN \
   cd ~/serving/tensorflow \
   && ./configure
-
-ENV \
-  JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
 
 RUN \
   cd ~/serving \
@@ -107,7 +112,8 @@ RUN \
 RUN \
   mkdir -p /root/logs
 
-ENV LOGS_HOME=/root/logs
+ENV 
+  \LOGS_HOME=/root/logs
 
 COPY run run
 COPY datasets/ datasets/
