@@ -1,4 +1,4 @@
-FROM fluxcapacitor/package-anaconda-4.1.11
+FROM fluxcapacitor/package-java-1.8
 
 WORKDIR /root
 
@@ -17,16 +17,16 @@ ENV TENSORFLOW_SERVING_HOME=/root/serving
 #ENV TENSORFLOW_HOME=/root/tensorflow
 
 # Java (required by bazel)
-RUN \
- apt-get update \
- && apt-get install -y software-properties-common \
- && add-apt-repository ppa:webupd8team/java \
- && apt-get update \
- && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections \
- && apt-get install -y oracle-java8-installer \
- && apt-get install -y oracle-java8-set-default
+#RUN \
+# apt-get update \
+# && apt-get install -y software-properties-common \
+# && add-apt-repository ppa:webupd8team/java \
+# && apt-get update \
+# && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections \
+# && apt-get install -y oracle-java8-installer \
+# && apt-get install -y oracle-java8-set-default
 
-ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
+#ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
 
 RUN \
   echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list \
@@ -55,6 +55,24 @@ RUN \
 RUN pip install enum34 futures mock six && \
     pip install --pre 'protobuf>=3.0.0a3' && \
     pip install -i https://testpypi.python.org/simple --pre grpcio
+
+RUN \
+  echo "build --spawn_strategy=standalone --genrule_strategy=standalone" >>/root/.bazelrc
+
+ENV \
+  BAZELRC=/root/.bazelrc
+
+ENV \ 
+  BAZEL_VERSION=0.3.1
+
+RUN \ 
+  mkdir /root/bazel \
+  && cd /root/bazel \
+  && curl -fSsL -O https://github.com/bazelbuild/bazel/releases/download/$BAZEL_VERSION/bazel-$BAZEL_VERSION-installer-linux-x86_64.sh \
+  && curl -fSsL -o /root/bazel/LICENSE.txt https://raw.githubusercontent.com/bazelbuild/bazel/master/LICENSE.txt \
+  && chmod +x bazel-*.sh \
+  && ./bazel-$BAZEL_VERSION-installer-linux-x86_64.sh \
+  && rm bazel-$BAZEL_VERSION-installer-linux-x86_64.sh
 
 # TensorFlow Serving
 RUN \
