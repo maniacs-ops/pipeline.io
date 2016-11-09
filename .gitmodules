@@ -43,3 +43,9 @@
 [submodule "metastore.ml"]
 	path = metastore.ml
 	url = https://github.com/fluxcapacitor/metastore.ml.git
+[submodule "loadtest.ml"]
+	path = loadtest.ml
+	url = https://github.com/fluxcapacitor/loadtest.ml
+[submodule "prediction.ml"]
+	path = prediction.ml
+	url = https://github.com/fluxcapacitor/prediction.ml
