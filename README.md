@@ -81,7 +81,7 @@ kubectl autoscale rc spark-worker-2-0-1 --max=4 --cpu-percent=50
 
 ### Rolling Update of JupyterHub to Increase `spark.max.cores` and `spark.executor.memory`
 ```
-kubectl rolling-update jupyterhub-master -f jupyterhub-rc-2cores-2gb.yaml
+kubectl rolling-update jupyterhub-master -f jupyterhub-rc-4cores-4gb.yaml
 ```
 
 ### Continuous Deploy, Monitor, and Rollback New Spark ML and TensorFlow AI Models 
@@ -96,7 +96,7 @@ TODO:  Link to specific jupyter noteook
 
 ### Highly-scalable, Highly-available Model Serving using Battle-tested NetflixOSS Components
 ```
-TODO:  Link to Hystrix/Turbine dashboard 
+http://hystrix.demo.datasticks.com/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22Circuit%20Breakers%22%2C%22stream%22%3A%22turbine.demo.datasticks.com%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D
 ```
 
 ## Support
