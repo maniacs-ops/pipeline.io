@@ -1,3 +1,5 @@
+# TODO:  Fix these
+
 echo '...NetflixOSS Core Components...'
 kubectl delete rc netflix
 

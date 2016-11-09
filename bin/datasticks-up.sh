@@ -1,6 +1,18 @@
-echo '...NetflixOSS Core Components...'
-kubectl create -f ../serve.ml/netflix-rc.yaml
-kubectl create -f ../serve.ml/netflix-svc.yaml
+echo '...Prediction - PMML...'
+kubectl create -f ../prediction.ml/pmml-rc.yaml
+kubectl create -f ../prediction.ml/pmml-svc.yaml
+
+echo '...Prediction - Codegen...'
+kubectl create -f ../prediction.ml/codegen-rc.yaml
+kubectl create -f ../prediction.ml/codegen-svc.yaml
+
+echo '...Prediction - Tensorflow...'
+kubectl create -f ../prediction.ml/tensorflow-rc.yaml
+kubectl create -f ../prediction.ml/tensorflow-svc.yaml
+
+echo '...Prediction - Cache'
+kubectl create -f ../prediction.ml/cache-rc.yaml
+kubectl create -f ../prediction.ml/cache-svc.yaml
 
 echo '...MySql...'
 kubectl create -f ../sql.ml/mysql-rc.yaml
@@ -14,11 +26,15 @@ echo '...Redis...'
 kubectl create -f ../keyvalue.ml/redis-rc.yaml
 kubectl create -f ../keyvalue.ml/redis-svc.yaml
 
-echo '...Spark Master...'
+echo '...Cassandra...'
+kubectl create -f ../cassandra.ml/cassandra-rc.yaml
+kubectl create -f ../cassandra.ml/cassandra-svc.yaml
+
+echo '...Spark - Master...'
 kubectl create -f ../apachespark.ml/spark-master-rc.yaml
 kubectl create -f ../apachespark.ml/spark-master-svc.yaml
 
-echo '...Spark Worker...'
+echo '...Spark - Worker...'
 kubectl create -f ../apachespark.ml/spark-worker-rc.yaml
 kubectl create -f ../apachespark.ml/spark-worker-svc.yaml
 
@@ -38,40 +54,31 @@ echo '...Airflow Scheduler...'
 kubectl create -f ../scheduler.ml/airflow-rc.yaml
 kubectl create -f ../scheduler.ml/airflow-svc.yaml
 
-echo '...Presto Master...'
+echo '...Presto - Master...'
 kubectl create -f ../presto.ml/presto-master-rc.yaml
 kubectl create -f ../presto.ml/presto-master-svc.yaml
 
-echo '...Presto Worker...'
+echo '...Presto - Worker...'
 kubectl create -f ../presto.ml/presto-worker-rc.yaml
 kubectl create -f ../presto.ml/presto-worker-svc.yaml
 
-echo '...Presto AirPal...'
+echo '...Presto - AirPal...'
 kubectl create -f ../presto.ml/airpal-rc.yaml
 kubectl create -f ../presto.ml/airpal-svc.yaml
 
-echo '...Kafka...'
-kubectl create -f ../stream.ml/kafka-0.10-rc.yaml
-kubectl create -f ../stream.ml/kafka-0.10-svc.yaml
+echo '...Kafka - 0.8...'
+kubectl create -f ../stream.ml/kafka-0.8-rc.yaml
+kubectl create -f ../stream.ml/kafka-0.8-svc.yaml
 
-echo '...Dashboard...'
+echo '...Dashboard - Weavescope...'
 kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml
-# See https://github.com/fluxcapacitor/dashboard.ml for more info on creating secret.yaml from a template
-#kubectl create -f dashboard.ml/kubernetes-ec2-autoscaler/secret.yaml
-#kubectl create -f dashboard.ml/kubernetes-ec2-autoscaler/scaling-controller.yaml
 
-echo '...NetflixOSS-based Prediction Services...'
-kubectl create -f ../serve.ml/prediction-rc.yaml
-kubectl create -f ../serve.ml/prediction-svc.yaml
+echo '...Dashboard - Hystrix/Turbine...'
+kubectl create -f ../dashboard.ml/hystrix-rc.yaml
+kubectl create -f ../dashboard.ml/hystrix-svc.yaml
+kubectl create -f ../dashboard.ml/turbine-rc.yaml
+kubectl create -f ../dashboard.ml/turbine-svc.yaml
 
-#echo '...TensorFlow Serving-based Prediction Services...'
-#kubectl create -f serve.ml/tensorflow-rc.yaml
-#kubectl create -f serve.ml/tensorflow-svc.yaml
-
-echo '...Cassandra...'
-kubectl create -f ../cassandra.ml/cassandra-rc.yaml
-kubectl create -f ../cassandra.ml/cassandra-svc.yaml
-
-echo '...Apache...'
-kubectl create -f ../web.ml/apache-rc.yaml
-kubectl create -f ../web.ml/apache-svc.yaml
+echo '...Apache - Home...'
+kubectl create -f ../web.ml/home-rc.yaml
+kubectl create -f ../web.ml/home-svc.yaml
