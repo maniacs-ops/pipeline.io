@@ -1,7 +1,8 @@
 # TODO:  Fix these
 
-echo '...NetflixOSS Core Components...'
-kubectl delete rc netflix
+echo '...Dashboard - Hystrix...'
+kubectl delete rc hystrix
+kubectl delete rc turbine
 
 echo '...MySql...'
 kubectl delete rc mysql-master
@@ -40,22 +41,26 @@ echo '...Presto AirPal...'
 kubectl delete rc airpal
 
 echo '...Kafka...'
-kubectl delete rc kafka-0-10
+kubectl delete rc kafka-0-8
 
-echo '...Dashboard...'
+echo '...Dashboard - Weavescope...'
 kubectl delete rc weavescope-app
 kubectl delete ds weavescope-probe
-#kubectl delete rc appscaler --namespace=kube-system
-#kubectl delete secret autoscaler --namespace=kube-system
 
-echo '...NetflixOSS-based Prediction Services...'
-kubectl delete rc prediction
+echo '...Prediction - PMML...'
+kubectl delete rc prediction-pmml
 
-#echo '...TensorFlow Serving-based Prediction Services...'
-#kubectl delete rc tensorflow
+echo '...Prediction - Codegen...'
+kubectl delete rc prediction-codegen
+
+echo '...Prediction - Cache...'
+kubectl delete rc prediction-cache
+
+echo '...Prediction - Tensorflow...'
+kubectl delete rc prediction-tensorflow
 
 echo '...Cassandra...'
 kubectl delete rc cassandra
 
-echo '...Apache...'
-kubectl delete rc apache
+echo '...Apache - Home...'
+kubectl delete rc home 
