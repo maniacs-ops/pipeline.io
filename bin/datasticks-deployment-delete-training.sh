@@ -1,5 +1,3 @@
-# TODO:  Fix these
-
 echo '...Dashboard - Hystrix...'
 kubectl delete rc hystrix
 kubectl delete rc turbine
@@ -46,18 +44,6 @@ kubectl delete rc kafka-0-8
 echo '...Dashboard - Weavescope...'
 kubectl delete rc weavescope-app
 kubectl delete ds weavescope-probe
-
-echo '...Prediction - PMML...'
-kubectl delete rc prediction-pmml
-
-echo '...Prediction - Codegen...'
-kubectl delete rc prediction-codegen
-
-echo '...Prediction - Cache...'
-kubectl delete rc prediction-cache
-
-echo '...Prediction - Tensorflow...'
-kubectl delete rc prediction-tensorflow
 
 echo '...Cassandra...'
 kubectl delete rc cassandra
