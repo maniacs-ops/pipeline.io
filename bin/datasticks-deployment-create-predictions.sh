@@ -1,4 +1,8 @@
-#!/bin/sh                                                                               
+#!/bin/sh
+
+                                                                                        
+echo '...Dashboard - Weavescope...'                                                     
+kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml                                                                                
 
 echo '...Prediction - PMML...'                                                       
 kubectl create -f ../prediction.ml/pmml-rc.yaml
