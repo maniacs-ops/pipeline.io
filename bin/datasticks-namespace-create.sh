@@ -1,1 +1,1 @@
-kubectl create namespace cfregly
+kubectl create namespace demo 
