@@ -16,6 +16,10 @@ echo '...Redis...'
 kubectl delete rc redis-master
 kubectl delete svc redis-master
 
+echo '...Elasticsearch 2.3.0...'
+kubectl delete rc elasticsearch-2-3-0
+kubectl delete svc elasticsearch-2-3-0
+
 echo '...Spark Master...'
 kubectl delete rc spark-master-2-0-1
 kubectl delete svc spark-master-2-0-1
@@ -52,9 +56,13 @@ echo '...Presto AirPal...'
 kubectl delete rc airpal
 kubectl delete svc airpal
 
-echo '...Kafka...'
+echo '...Kafka - 0.8...'
 kubectl delete rc kafka-0-8
 kubectl delete svc kafka-0-8
+
+echo '...Kibana - 4.5.0...'
+kubectl delete rc kibana-4-5-0
+kubectl delete svc kibana-4-5-0 
 
 echo '...Dashboard - Weavescope...'
 kubectl delete rc weavescope-app

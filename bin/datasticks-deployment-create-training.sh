@@ -6,6 +6,10 @@ echo '...ZooKeeper...'
 kubectl create -f ../zookeeper.ml/zookeeper-rc.yaml
 kubectl create -f ../zookeeper.ml/zookeeper-svc.yaml
 
+echo '...ElasticSearch - 2.3.0...'
+kubectl create -f ../elasticsearch.ml/elasticsearch-2-3-0-rc.yaml
+kubectl create -f ../elasticsearch.ml/elasticsearch-2-3-0-svc.yaml
+
 echo '...Redis...'
 kubectl create -f ../keyvalue.ml/redis-rc.yaml
 kubectl create -f ../keyvalue.ml/redis-svc.yaml
@@ -53,6 +57,10 @@ kubectl create -f ../presto.ml/airpal-svc.yaml
 echo '...Kafka - 0.8...'
 kubectl create -f ../stream.ml/kafka-0.8-rc.yaml
 kubectl create -f ../stream.ml/kafka-0.8-svc.yaml
+
+echo '...Kibana - 4.5.0...'
+kubectl create -f ../kibana.ml/kibana-4-5-0-rc.yaml
+kubectl create -f ../kibana.ml/kibana-4-5-0-svc.yaml
 
 echo '...Dashboard - Weavescope...'
 kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml
