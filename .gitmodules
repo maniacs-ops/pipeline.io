@@ -49,3 +49,9 @@
 [submodule "prediction.ml"]
 	path = prediction.ml
 	url = https://github.com/fluxcapacitor/prediction.ml
+[submodule "elasticsearch.ml"]
+	path = elasticsearch.ml
+	url = https://github.com/fluxcapacitor/elasticsearch.ml
+[submodule "kibana.ml"]
+	path = kibana.ml
+	url = https://github.com/fluxcapacitor/kibana.ml
