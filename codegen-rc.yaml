@@ -20,22 +20,6 @@ spec:
         image: docker.io/fluxcapacitor/prediction-codegen
         imagePullPolicy: "Always"
         env:
-        - name: GET_HOSTS_FROM
-          value: env
-        - name: GITHUB_USER
-          value: "cfregly"
-        - name: GITHUB_EMAIL
-          value: "chris@fregly.com"
-        - name: GITHUB_REPO_OWNER_URL 
-          value: "https://github.com/fluxcapacitor"
-        - name: GITHUB_REPO_NAME 
-          value: "source.ml"
-        - name: GITHUB_CLONE_BRANCH
-          value: "master"
-        - name: GITHUB_CHECKOUT_BRANCH
-          value: "master"
-        - name: GITHUB_RESET_REVISION
-          value: "HEAD"
         ports:
         - containerPort: 9040
 #        livenessProbe:
