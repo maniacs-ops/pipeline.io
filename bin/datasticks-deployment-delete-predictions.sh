@@ -1,3 +1,7 @@
+echo '...Dashboard - Turbine...'
+kubectl delete rc turbine
+kubectl delete svc turbine
+
 echo '...Prediction - PMML...'                                                          
 kubectl delete rc prediction-pmml                                                       
 kubectl delete svc prediction-pmml
