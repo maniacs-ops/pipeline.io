@@ -1,7 +1,8 @@
 #!/bin/sh
 
 echo '...Dashboard - Weavescope...'
-kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml                                                          kubectl describe svc weavescope-app
+kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml
+kubectl describe svc weavescope-app
 
 echo '...Dashboard - Turbine...'
 kubectl create -f ../dashboard.ml/turbine-rc.yaml
