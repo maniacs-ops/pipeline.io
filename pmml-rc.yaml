@@ -20,8 +20,6 @@ spec:
         image: docker.io/fluxcapacitor/prediction-pmml
         imagePullPolicy: "Always"
         env:
-        - name: GET_HOSTS_FROM
-          value: env
         - name: GITHUB_USER
           value: "cfregly"
         - name: GITHUB_EMAIL
