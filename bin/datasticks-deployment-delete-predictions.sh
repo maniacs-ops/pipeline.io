@@ -15,4 +15,6 @@ kubectl delete rc prediction-tensorflow
 kubectl delete svc prediction-tensorflow     
 
 echo '...Weavescope...'
+kubectl delete rc weavescope-app
+kubectl delete ds weavescope-probe
 kubectl delete svc weavescope-app                                     
