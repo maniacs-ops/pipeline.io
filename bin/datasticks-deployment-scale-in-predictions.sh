@@ -1,3 +1,3 @@
 #!/bin/sh                                                                               
-                                                                                        
-kubectl scale --replicas=1 rc prediction  
+                                                                                         
+kubectl scale --replicas=1 rc prediction-pmml 
