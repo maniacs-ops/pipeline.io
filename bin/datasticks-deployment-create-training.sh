@@ -60,8 +60,6 @@ kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml
 echo '...Dashboard - Hystrix/Turbine...'
 kubectl create -f ../dashboard.ml/hystrix-rc.yaml
 kubectl create -f ../dashboard.ml/hystrix-svc.yaml
-kubectl create -f ../dashboard.ml/turbine-rc.yaml
-kubectl create -f ../dashboard.ml/turbine-svc.yaml
 
 echo '...Apache - Home...'
 kubectl create -f ../web.ml/home-rc.yaml

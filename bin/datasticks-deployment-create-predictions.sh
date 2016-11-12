@@ -1,13 +1,17 @@
 #!/bin/sh
 
-                                                                                        
-echo '...Dashboard - Weavescope...'                                                     
-kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml                                                                                
+echo '...Dashboard - Weavescope...'
+kubectl create -f ../dashboard.ml/weavescope/weavescope.yaml                                                          kubectl describe svc weavescope-app
 
-echo '...Prediction - PMML...'                                                       
+echo '...Dashboard - Turbine...'
+kubectl create -f ../dashboard.ml/turbine-rc.yaml
+kubectl create -f ../dashboard.ml/turbine-svc.yaml
+kubectl describe svc turbine
+
+echo '...Prediction - PMML...'
 kubectl create -f ../prediction.ml/pmml-rc.yaml
 kubectl create -f ../prediction.ml/pmml-svc.yaml
-kubectl describe svc prediction-pmml 
+kubectl describe svc prediction-pmml
 
 #echo '...Prediction - Codegen...'                                                       
 #kubectl create -f ../prediction.ml/codegen-rc.yaml                                      
