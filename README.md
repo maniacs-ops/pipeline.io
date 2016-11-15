@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Datasticks Logo](https://s3-us-west-2.amazonaws.com/advancedspark.com/img/datasticks-logo.png)
 
 ### 100% Open Source, Continuously Train and Deploy Streaming ML and AI Pipelines
