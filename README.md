@@ -1,4 +1,6 @@
-## ![PipelineIO](http://pipeline.io/images/pipeline-io-logo-shadow-210x186.png)
+![PipelineIO](http://pipeline.io/images/pipeline-io-logo-shadow-210x186.png)
+
+## Features
 * 100% Open Source
 * Continuously Train and Deploy ML and AI Pipelines to Production
 * Supports Spark ML and Tensorflow AI Models
