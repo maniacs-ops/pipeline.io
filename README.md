@@ -8,7 +8,7 @@
 * Uses NetflixOSS-based Microservices for High Scalability and Availability
 
 ## Live Demo
-* Click [here](http://demo.datasticks.com) for a live demo.  
+* Click [here](http://www.demo.pipeline.io) for a live demo.  
 
 **Note:  Do not load any sensitive data into this environment!**
 
@@ -26,19 +26,19 @@
 
 ## Clone this Repo including Submodules
 ```
-git clone --recursive https://github.com/fluxcapacitor/datasticks.com
+git clone --recursive https://github.com/fluxcapacitor/pipeline.io
 ```
 
 ## Pull Latest Tips of Submodules
 ```
-cd datasticks.com
+cd pipeline.io
 
 git submodule update --recursive --remote && git pull --recurse-submodules
 ```
 
-## Deploy Datasticks to Kubernetes Cluster
+## Deploy PipelineIO to Kubernetes Cluster
 ```
-./bin/datasticks-up.sh
+./bin/pipeline-up.sh
 ```
 
 ## Get all Service Host/IPs
@@ -101,7 +101,7 @@ TODO:  Link to specific jupyter noteook
 
 ### Highly-scalable, Highly-available Model Serving using Battle-tested NetflixOSS Components
 ```
-http://hystrix.demo.datasticks.com/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22Circuit%20Breakers%22%2C%22stream%22%3A%22turbine.demo.datasticks.com%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D
+http://hystrix.demo.pipeline.io/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22Circuit%20Breakers%22%2C%22stream%22%3A%22turbine.demo.pipeline.io%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D
 ```
 
 ## Support
