@@ -1,6 +1,8 @@
 ![PipelineIO](http://pipeline.io/images/pipeline-io-logo-shadow-210x186.png)
 
-### 100% Open Source, Continuously Train and Deploy Spark ML and Tensorflow AI Pipelines
+### 100% Open Source
+### Continuously Train and Deploy 
+### Spark ML and Tensorflow AI Pipelines
 
 ## Live Demo
 * Click [here](http://demo.datasticks.com) for a live demo.  
