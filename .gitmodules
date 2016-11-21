@@ -55,3 +55,6 @@
 [submodule "kibana.ml"]
 	path = kibana.ml
 	url = https://github.com/fluxcapacitor/kibana.ml
+[submodule "clustered.ml"]
+	path = clustered.ml
+	url = https://github.com/fluxcapacitor/clustered.ml
