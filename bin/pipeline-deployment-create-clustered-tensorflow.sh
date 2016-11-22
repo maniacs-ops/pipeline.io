@@ -11,5 +11,5 @@ kubectl create -f ../clustered.ml/tensorflow-worker0-rc.yaml
 kubectl create -f ../clustered.ml/tensorflow-worker0-svc.yaml
 
 echo '...Worker1...'
-kubectl create -f ../clustered.ml/tensorflow-worker0-rc.yaml
-kubectl create -f ../clustered.ml/tensorflow-worker0-svc.yaml
+kubectl create -f ../clustered.ml/tensorflow-worker1-rc.yaml
+kubectl create -f ../clustered.ml/tensorflow-worker1-svc.yaml
