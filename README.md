@@ -36,9 +36,14 @@ cd pipeline.io
 git submodule update --recursive --remote && git pull --recurse-submodules
 ```
 
-## Deploy PipelineIO to Kubernetes Cluster
+## Deploy PipelineIO's Training Components to Kubernetes
 ```
-./bin/pipeline-up.sh
+./bin/pipeline-deployment-create-training.sh
+```
+
+## Deploy PipelineIO's Serving Components to Kubernetes
+```
+./bin/pipeline-deployment-create-serving.sh
 ```
 
 ## Get all Service Host/IPs
