@@ -14,10 +14,10 @@ kubectl create -f ../prediction.ml/pmml-rc.yaml
 kubectl create -f ../prediction.ml/pmml-svc.yaml
 kubectl describe svc prediction-pmml
 
-#echo '...Prediction - Codegen...'                                                       
-#kubectl create -f ../prediction.ml/codegen-rc.yaml                                      
-#kubectl create -f ../prediction.ml/codegen-svc.yaml
-#kubectl describe svc prediction-codegen                                                  
+echo '...Prediction - Codegen...'                                                       
+kubectl create -f ../prediction.ml/codegen-rc.yaml                                      
+kubectl create -f ../prediction.ml/codegen-svc.yaml
+kubectl describe svc prediction-codegen                                                  
                                                                                         
 #echo '...Prediction - Tensorflow...'                                                    
 #kubectl create -f ../prediction.ml/tensorflow-rc.yaml                                   
