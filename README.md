@@ -106,7 +106,7 @@ TODO:  Link to specific jupyter noteook
 
 ### Highly-scalable, Highly-available Model Serving using Battle-tested NetflixOSS Components
 ```
-http://hystrix.demo.pipeline.io/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22Circuit%20Breakers%22%2C%22stream%22%3A%22turbine.demo.pipeline.io%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D
+http://hystrix.demo.pipeline.io/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22Circuit%20Breakers%22%2C%22stream%22%3A%22turbine-aws.demo.pipeline.io%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D
 ```
 
 ## Support
