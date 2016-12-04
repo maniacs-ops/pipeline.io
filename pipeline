@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Usage:"
+echo "\t pipeline env [up|down|switch|view] [env-name]"
+echo "\t pipeline service [deploy|undeploy|scale|upgrade|view] [service-type] [service-name]"
+
+$PIPELINE_HOME/bin/pipeline-$1-$2-$3-$4-$5.sh
